@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>To-Do List Web App</h1>
+  <div class="container">
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Title" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <button type="submit">Save</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="taskList">
+        <!-- Task rows will appear here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
